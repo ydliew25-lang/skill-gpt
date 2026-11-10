@@ -1,0 +1,13 @@
+interface:
+  display_name: 原图构图可编辑PPT工作流
+  short_description: 先确认样页风格，再按原图分层重建可编辑PPT，分批核验内容与版式
+  default_prompt: 请使用 $build-editable-pptx-from-references，根据我的主题和参考图先确认样页，再制作保留原图构图、可编辑且附完整备注的PPT。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

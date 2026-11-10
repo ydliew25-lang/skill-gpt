@@ -1,0 +1,13 @@
+interface:
+  display_name: 零售合作模式分析
+  short_description: 从合作案例归纳业务流程、资源资金流与产品商业化机会
+  default_prompt: 请分析品牌与平台、零售与平台的合作模式，并绘制资源流和资金流。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
