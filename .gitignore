@@ -1,0 +1,16 @@
+# Local caches and generated outputs
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+outputs/
+audit.json
+
+# Local configuration and private working material
+.env
+.env.*
+!.env.example
+private/
+downloads/
+*.log
