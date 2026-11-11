@@ -1,0 +1,13 @@
+interface:
+  display_name: 绘制商业模式图
+  short_description: 将合作模式、资源资金流与商业机会绘制成清晰易读的关系图
+  default_prompt: 使用 $draw-business-model 绘制商业合作模式、资源资金流和机会点关系图。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
