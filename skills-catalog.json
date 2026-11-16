@@ -66,6 +66,17 @@
       "profile_summary": "将产品需求、用户旅程和工作流转成画面一致、可评审的场景分镜",
       "website_summary": "将需求、用户旅程与参考资料转为动作清晰、风格一致的场景分镜。",
       "published": true
+    },
+    {
+      "id": "paper-to-academic-ppt",
+      "name": "论文转主题学术 PPT",
+      "path": "skills/paper-to-academic-ppt/SKILL.md",
+      "summary": "将已有论文重组为围绕一个问题展开的学术汇报",
+      "inputs": "论文、原典或史料、汇报时长与版式要求",
+      "outputs": "逐页论证、可编辑 PPTX、引文出处与讲述备注",
+      "profile_summary": "把已有论文改编成有逐页论证、可查出处和讲述安排的学术汇报",
+      "website_summary": "从已有论文提炼报告主线，组织原典或史料、可编辑图表和讲述备注。",
+      "published": true
     }
   ]
 }

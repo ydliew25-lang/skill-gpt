@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文转主题学术 PPT"
+  short_description: "把已有论文改编成有据可查、带逐页讲述安排的可编辑学术汇报PPT"
+  default_prompt: "使用 $paper-to-academic-ppt，把这篇论文改编成带史料出处、可编辑图表和讲述备注的主题学术汇报。"
