@@ -77,6 +77,17 @@
       "profile_summary": "把已有论文改编成有逐页论证、可查出处和讲述安排的学术汇报",
       "website_summary": "从已有论文提炼报告主线，组织原典或史料、可编辑图表和讲述备注。",
       "published": true
+    },
+    {
+      "id": "editable-ppt-progress-axis",
+      "name": "可编辑ppt进度轴制作skill",
+      "path": "skills/editable-ppt-progress-axis/SKILL.md",
+      "summary": "为 PowerPoint 添加可编辑的顶部章节进度轴",
+      "inputs": "PPTX、章节范围、现有目录或参考样式",
+      "outputs": "原生可编辑的进度轴、章节高亮与节内进度",
+      "profile_summary": "为 PowerPoint 添加可编辑的章节进度轴，按需同步目录、页码与章节跳转",
+      "website_summary": "为 PowerPoint 添加可编辑的顶部章节进度轴，支持章节高亮、节内进度与深浅底适配。",
+      "published": true
     }
   ]
 }
