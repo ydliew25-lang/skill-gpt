@@ -69,7 +69,7 @@
     },
     {
       "id": "paper-to-academic-ppt",
-      "name": "论文转主题学术 PPT",
+      "name": "论文转学术主题",
       "path": "skills/paper-to-academic-ppt/SKILL.md",
       "summary": "将已有论文重组为围绕一个问题展开的学术汇报",
       "inputs": "论文、原典或史料、汇报时长与版式要求",
