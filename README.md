@@ -2,7 +2,8 @@
 
 将产品工作中的重复任务整理为可复用的 AI 工作流，覆盖 **行业研究、商业合作分析、商业模式绘图、测试设计、可编辑 PPT 制作与产品场景分镜**。
 
-本仓库收录 6 项 Skill，并保留行业案例更新器的 1 个历史版本。每项 Skill 都有明确的输入、执行步骤、输出要求和质量边界，供具备相应工具的 AI 助手读取执行。
+<!-- SKILLS:CATALOG:START -->
+本仓库收录 6 项公开展示 Skill，并保留行业案例更新器的 1 个历史版本。每项 Skill 都有明确的输入、执行步骤、输出要求和质量边界，供具备相应工具的 AI 助手读取执行。
 
 ## Skill 目录
 
@@ -15,6 +16,7 @@
 | [原图构图可编辑 PPT 工作流](skills/build-editable-pptx-from-references/SKILL.md) | 按已认可风格和参考图制作、续作可编辑演示文稿 | 内容、参考图/PPT、页数、时长、格式要求 | 可编辑 PPTX、预览、讲稿备注与来源 |
 | [产品场景分镜制作](create-product-storyboards/SKILL.md) | 将产品需求、用户旅程和工作流转成可评审的分镜 | 需求/流程、产品实拍或界面截图、画风与交付要求 | 镜头脚本、分镜图文、视觉验收记录 |
 
+<!-- SKILLS:CATALOG:END -->
 ## 工作流的设计重点
 
 - **把任务拆成可执行步骤**：先明确输入和边界，再组织检索、分析、制作与交付。
@@ -92,4 +94,4 @@ PPT Skill 随附 `audit_pptx.py`，用于生成只读结构报告。该报告能
 - [构图、视觉一致性和验收标准](create-product-storyboards/references/visual-qa.md)
 - [可复制的资料清单、镜头表与画面描述模板](create-product-storyboards/references/templates.md)
 
-新增 Skill 时，请保留本仓库总 README，在目录中追加条目，不要用单个 Skill 包的 README 覆盖总目录。GitHub 个人主页和作品集页面的展示条目需分别更新。
+新增 Skill 时，只上传技能文件夹，并在 [skills-catalog.json](skills-catalog.json) 中登记公开展示信息。请勿用单项 README 覆盖本仓库总目录。三处展示由自动工作流维护，详见 [同步说明](docs/automatic-sync.md)。

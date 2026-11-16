@@ -1,0 +1,40 @@
+name: Sync Skills catalog
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/sync_skills.py'
+      - '.github/workflows/sync-skills.yml'
+      - 'README.md'
+      - 'skills-catalog.json'
+      - 'skills/**'
+      - 'create-product-storyboards/**'
+permissions:
+  contents: write
+concurrency:
+  group: skills-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+      - name: Run offline regression tests
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
+      - name: Validate and update only Skills regions
+        id: sync
+        run: python3 scripts/sync_skills.py --mode catalog --target README.md --catalog skills-catalog.json --source-root .
+      - name: Commit changed Skills regions
+        if: steps.sync.outputs.changed == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- README.md
+          git commit -m 'chore: synchronize Skills catalog'
+          git push origin HEAD:main

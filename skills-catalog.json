@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "id": "embodied-industry-case-updater",
+      "name": "具身智能合作案例增量更新器",
+      "path": "skills/embodied-industry-case-updater/SKILL.md",
+      "summary": "将新合作信息核验、去重后补充到现有案例库",
+      "inputs": "Excel 案例表、日期范围、研究范围",
+      "outputs": "更新后的 Excel、新增/更新数量、证据边界",
+      "profile_summary": "核验、去重并更新行业合作案例，保留来源与证据边界",
+      "website_summary": "核验、去重并更新行业案例，保留来源与证据边界。",
+      "published": true
+    },
+    {
+      "id": "analyze-retail-partnerships",
+      "name": "零售合作模式分析",
+      "path": "skills/analyze-retail-partnerships/SKILL.md",
+      "summary": "说明零售方、品牌方、平台方和第四方如何合作",
+      "inputs": "研究对象、案例或资料、时间/地域范围",
+      "outputs": "案例表、合作模式与业务流程表、资源流/资金流图、待验证机会",
+      "profile_summary": "梳理零售方、品牌方、平台方及第四方的合作关系与业务机会",
+      "website_summary": "梳理参与方、合作方式、资源需求与待验证的业务机会。",
+      "published": true
+    },
+    {
+      "id": "draw-business-model",
+      "name": "绘制商业模式图",
+      "path": "skills/draw-business-model/SKILL.md",
+      "summary": "将已有合作分析画成资源、服务与资金对应清楚的关系图",
+      "inputs": "合作分析、关系清单或参考图、展示范围与格式",
+      "outputs": "高清 PNG、可编辑 SVG、机会与潜在收费标注、待验证事项",
+      "profile_summary": "将合作分析转化为资源流、服务流与资金流对应清晰的关系图",
+      "website_summary": "将合作关系整理为方向明确、标注清晰的资源流与资金流图。",
+      "published": true
+    },
+    {
+      "id": "test-case-generator",
+      "name": "测试用例生成",
+      "path": "skills/test-case-generator/SKILL.md",
+      "summary": "将需求与交互流程转成可执行、可判定的测试用例",
+      "inputs": "产品需求、流程、技术能力、验收约束",
+      "outputs": "场景矩阵、六列测试用例表、检查清单与待确认项",
+      "profile_summary": "将产品需求与交互流程转化为可执行、可判定的测试用例",
+      "website_summary": "将需求与交互流程转成可执行、可判定的测试用例。",
+      "published": true
+    },
+    {
+      "id": "build-editable-pptx-from-references",
+      "name": "原图构图可编辑 PPT 工作流",
+      "path": "skills/build-editable-pptx-from-references/SKILL.md",
+      "summary": "按已认可风格和参考图制作、续作可编辑演示文稿",
+      "inputs": "内容、参考图/PPT、页数、时长、格式要求",
+      "outputs": "可编辑 PPTX、预览、讲稿备注与来源",
+      "profile_summary": "根据参考材料和已认可的风格，制作并检查可编辑 PPT",
+      "website_summary": "根据参考材料与已认可的风格，制作并检查可编辑 PPT。",
+      "published": true
+    },
+    {
+      "id": "create-product-storyboards",
+      "name": "产品场景分镜制作",
+      "path": "create-product-storyboards/SKILL.md",
+      "summary": "将产品需求、用户旅程和工作流转成可评审的分镜",
+      "inputs": "需求/流程、产品实拍或界面截图、画风与交付要求",
+      "outputs": "镜头脚本、分镜图文、视觉验收记录",
+      "profile_summary": "将产品需求、用户旅程和工作流转成画面一致、可评审的场景分镜",
+      "website_summary": "将需求、用户旅程与参考资料转为动作清晰、风格一致的场景分镜。",
+      "published": true
+    }
+  ]
+}
