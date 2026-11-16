@@ -3,7 +3,7 @@
 将产品工作中的重复任务整理为可复用的 AI 工作流，覆盖 **行业研究、商业合作分析、商业模式绘图、测试设计、可编辑 PPT 制作与产品场景分镜**。
 
 <!-- SKILLS:CATALOG:START -->
-本仓库收录 7 项公开展示 Skill，并保留行业案例更新器的 1 个历史版本。每项 Skill 都有明确的输入、执行步骤、输出要求和质量边界，供具备相应工具的 AI 助手读取执行。
+本仓库收录 8 项公开展示 Skill，并保留行业案例更新器的 1 个历史版本。每项 Skill 都有明确的输入、执行步骤、输出要求和质量边界，供具备相应工具的 AI 助手读取执行。
 
 ## Skill 目录
 
@@ -16,6 +16,7 @@
 | [原图构图可编辑 PPT 工作流](skills/build-editable-pptx-from-references/SKILL.md) | 按已认可风格和参考图制作、续作可编辑演示文稿 | 内容、参考图/PPT、页数、时长、格式要求 | 可编辑 PPTX、预览、讲稿备注与来源 |
 | [产品场景分镜制作](create-product-storyboards/SKILL.md) | 将产品需求、用户旅程和工作流转成可评审的分镜 | 需求/流程、产品实拍或界面截图、画风与交付要求 | 镜头脚本、分镜图文、视觉验收记录 |
 | [论文转主题学术 PPT](skills/paper-to-academic-ppt/SKILL.md) | 将已有论文重组为围绕一个问题展开的学术汇报 | 论文、原典或史料、汇报时长与版式要求 | 逐页论证、可编辑 PPTX、引文出处与讲述备注 |
+| [可编辑ppt进度轴制作skill](skills/editable-ppt-progress-axis/SKILL.md) | 为 PowerPoint 添加可编辑的顶部章节进度轴 | PPTX、章节范围、现有目录或参考样式 | 原生可编辑的进度轴、章节高亮与节内进度 |
 
 <!-- SKILLS:CATALOG:END -->
 ## 工作流的设计重点
