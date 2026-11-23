@@ -1,0 +1,4 @@
+interface:
+  display_name: "商品试吃品牌反馈分析"
+  short_description: "把已标注的试吃对话整理成可追溯的品牌反馈、改进动作与验证指标"
+  default_prompt: "请用 $analyze-sampling-feedback 分析这份已标注的试吃数据，按七列模板给出品牌发现、原话证据和下一场验证指标。"

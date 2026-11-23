@@ -99,6 +99,17 @@
       "profile_summary": "逐句标注商品试吃日志，按顾客、商品和现场证据复核",
       "website_summary": "将试吃现场原话和动作整理为可回查的偏好、商品评价和购买意向标签。",
       "published": true
+    },
+    {
+      "id": "analyze-sampling-feedback",
+      "name": "商品试吃品牌反馈分析",
+      "path": "skills/analyze-sampling-feedback/SKILL.md",
+      "summary": "将已标注的试吃对话整理为有原话和计数依据的品牌反馈",
+      "inputs": "逐句标注、对应版本的数据字典、可回查的原话或现场记录",
+      "outputs": "七列品牌反馈表、改进措施与验证指标",
+      "profile_summary": "将试吃对话转为可追溯的品牌反馈，并设计下一场验证指标",
+      "website_summary": "从顾客原话与试吃记录中提炼品牌反馈，明确改进动作与下一场验证指标。",
+      "published": true
     }
   ]
 }
