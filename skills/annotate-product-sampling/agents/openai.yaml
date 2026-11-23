@@ -1,0 +1,13 @@
+interface:
+  display_name: 商品试吃数据评注
+  short_description: 逐句评注商品试吃日志，关联顾客、商品和证据，复核偏好、反馈与实际行为
+  default_prompt: 请使用 $annotate-product-sampling 逐句评注这份商品试吃日志，按拨复核并输出原文、标签明细和待确认项。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

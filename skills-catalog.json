@@ -88,6 +88,17 @@
       "profile_summary": "为 PowerPoint 添加可编辑的章节进度轴，按需同步目录、页码与章节跳转",
       "website_summary": "为 PowerPoint 添加可编辑的顶部章节进度轴，支持章节高亮、节内进度与深浅底适配。",
       "published": true
+    },
+    {
+      "id": "annotate-product-sampling",
+      "name": "商品试吃数据评注",
+      "path": "skills/annotate-product-sampling/SKILL.md",
+      "summary": "将试吃现场原话和动作逐项标注，区分顾客偏好、商品反馈与购买意向",
+      "inputs": "试吃现场日志或音视频转写，可选已有标注与数据字典",
+      "outputs": "可筛选的 Excel 原文表、标签明细和待确认项",
+      "profile_summary": "逐句标注商品试吃日志，按顾客、商品和现场证据复核",
+      "website_summary": "将试吃现场原话和动作整理为可回查的偏好、商品评价和购买意向标签。",
+      "published": true
     }
   ]
 }
