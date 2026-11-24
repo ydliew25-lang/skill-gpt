@@ -1,0 +1,4 @@
+interface:
+  display_name: "商品试吃标注数据评测"
+  short_description: "按拨回查原文和标签，定位漏标、误标、重复与待裁决项，生成评测报告"
+  default_prompt: "请用 $audit-sampling-annotations 对照原始试吃日志、本批标注字典和评测标准，核验已标注数据并输出问题明细和待裁决清单。"

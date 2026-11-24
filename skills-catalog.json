@@ -110,6 +110,17 @@
       "profile_summary": "将试吃对话转为可追溯的品牌反馈，并设计下一场验证指标",
       "website_summary": "从顾客原话与试吃记录中提炼品牌反馈，明确改进动作与下一场验证指标。",
       "published": true
+    },
+    {
+      "id": "audit-sampling-annotations",
+      "name": "商品试吃标注数据评测",
+      "path": "skills/audit-sampling-annotations/SKILL.md",
+      "summary": "对照试吃原文和标注规则，逐拨查漏标、误标、重复及证据归属",
+      "inputs": "原始试吃日志、已标注数据、对应版本的数据字典与评测标准，可选独立标准答案",
+      "outputs": "标注评测报告、逐项证据、待裁决与复测清单",
+      "profile_summary": "通过原文和标签双向核对，识别错漏并明确待裁决事项",
+      "website_summary": "核对试吃标注的原话、主体与商品归属，交付可回查的错漏清单。",
+      "published": true
     }
   ]
 }
