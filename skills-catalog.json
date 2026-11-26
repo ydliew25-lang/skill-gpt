@@ -121,6 +121,17 @@
       "profile_summary": "通过原文和标签双向核对，识别错漏并明确待裁决事项",
       "website_summary": "核对试吃标注的原话、主体与商品归属，交付可回查的错漏清单。",
       "published": true
+    },
+    {
+      "id": "build-sampling-dashboard",
+      "name": "搭建试吃活动数据平台",
+      "path": "skills/build-sampling-dashboard/SKILL.md",
+      "summary": "将多门店试吃资料接入分角色的数据平台，让用户从活动结论回查顾客原话",
+      "inputs": "门店原始日志、逐句标注、分析报告、角色权限和品牌视觉规范",
+      "outputs": "品牌、零售和内部工作台交互原型，支持指标下钻、证据回查和按权限下载",
+      "profile_summary": "搭建多门店试吃数据平台，让品牌、零售和内部团队从结论追溯到标注与原话",
+      "website_summary": "将多门店试吃记录做成分角色工作台，支持查看指标分母、追溯顾客原话和按权限下载数据。",
+      "published": true
     }
   ]
 }
