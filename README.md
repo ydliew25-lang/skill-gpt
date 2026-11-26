@@ -16,7 +16,7 @@
 | [原图构图可编辑 PPT 工作流](skills/build-editable-pptx-from-references/SKILL.md) | 按已认可风格和参考图制作、续作可编辑演示文稿 | 内容、参考图/PPT、页数、时长、格式要求 | 可编辑 PPTX、预览、讲稿备注与来源 |
 | [产品场景分镜制作](create-product-storyboards/SKILL.md) | 将产品需求、用户旅程和工作流转成可评审的分镜 | 需求/流程、产品实拍或界面截图、画风与交付要求 | 镜头脚本、分镜图文、视觉验收记录 |
 | [论文转学术主题](skills/paper-to-academic-ppt/SKILL.md) | 将已有论文重组为围绕一个问题展开的学术汇报 | 论文、原典或史料、汇报时长与版式要求 | 逐页论证、可编辑 PPTX、引文出处与讲述备注 |
-| [可编辑ppt进度轴制作](skills/editable-ppt-progress-axis/SKILL.md) | 为 PowerPoint 添加可编辑的顶部章节进度轴 | PPTX、章节范围、现有目录或参考样式 | 原生可编辑的进度轴、章节高亮与节内进度 |
+| [可编辑ppt进度轴制作skill](skills/editable-ppt-progress-axis/SKILL.md) | 为 PowerPoint 添加可编辑的顶部章节进度轴 | PPTX、章节范围、现有目录或参考样式 | 原生可编辑的进度轴、章节高亮与节内进度 |
 | [商品试吃数据评注](skills/annotate-product-sampling/SKILL.md) | 将试吃现场原话和动作逐项标注，区分顾客偏好、商品反馈与购买意向 | 试吃现场日志或音视频转写，可选已有标注与数据字典 | 可筛选的 Excel 原文表、标签明细和待确认项 |
 | [商品试吃品牌反馈分析](skills/analyze-sampling-feedback/SKILL.md) | 将已标注的试吃对话整理为有原话和计数依据的品牌反馈 | 逐句标注、对应版本的数据字典、可回查的原话或现场记录 | 七列品牌反馈表、改进措施与验证指标 |
 | [商品试吃标注数据评测](skills/audit-sampling-annotations/SKILL.md) | 对照试吃原文和标注规则，逐拨查漏标、误标、重复及证据归属 | 原始试吃日志、已标注数据、对应版本的数据字典与评测标准，可选独立标准答案 | 标注评测报告、逐项证据、待裁决与复测清单 |
